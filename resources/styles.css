@@ -22,7 +22,7 @@ body {
 
 /* Nagłówek */
 
-.nav {
+.header {
     background-color: white;
     box-shadow: 0px 0px 10px;
 }
@@ -37,7 +37,9 @@ ul {
     align-items: center;
 }
 
-
+.header .mobile {
+    display: none;
+}
 
 .item {
     margin-right: 2rem;
@@ -53,7 +55,7 @@ ul {
     transition: all 200ms ease-in;
 }
 
-#logo {
+.logo {
     padding: 2rem;
     background-image: url(../resources/images/01_zf_logo2_3_2_748px.png);
     background-repeat: no-repeat;
@@ -81,6 +83,36 @@ ul {
     background-color: darkcyan;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .nav {
+      display: none;
+    }
+  
+    .header .mobile {
+      display: block;
+      width: 100%;
+    }
+
+    .btn_primary {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.5rem;
+    }
+
+    .header  {
+      padding: 0.5rem 0;
+    }
+  
+    .header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+}
+
+/*Sekcja banera */
+
 .banner {
     margin-top: 10px;
     display: flex;
@@ -94,7 +126,7 @@ ul {
 
 .content {
     background-color: lightgray;
-    height: 10rem;
+    height: auto;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
@@ -153,6 +185,28 @@ ul {
     line-height: 1.2;
     font-weight: 300;
     color: #4a4a4a;
+}
+
+@media only screen and (max-width: 875px) {
+    .products-section {
+        display: block;
+        padding: 1rem;
+    }
+
+    .product {
+        padding-top: 1rem;
+        margin: 0;
+    }
+    
+    .product h2 {
+        padding-bottom: 0;
+        font-size: 2rem;
+    }
+
+    .product h3 {
+        font-size: 0.75rem;
+        line-height: 1.4;
+    }
 }
 
 /*Sekcja zespołu*/
