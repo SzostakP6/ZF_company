@@ -1,0 +1,211 @@
+/* Uniwersalne style */
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.image-container {
+    overflow: hidden;
+}
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* Nagłówek */
+
+.nav {
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.item {
+    margin-right: 2rem;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
+
+.item a:hover {
+    color: darkcyan;
+    transition: all 200ms ease-in;
+}
+
+#logo {
+    padding: 2rem;
+    background-image: url(../resources/images/01_zf_logo2_3_2_748px.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.btn_primary {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn_primary:hover {
+    background-color: darkcyan;
+}
+
+.banner {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-image: url(../resources/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    background-color: lightgray;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content h4 {
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+    margin: 1rem 1rem;
+}
+
+/* Sekcja produktów */
+.team-section h1 {
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.products-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    padding: 4rem 5%;
+    background-color: aliceblue;
+}
+
+
+.product {
+    flex: 1;
+    padding: 2rem;
+    margin: 1rem 1.25rem;
+    background-color: white;
+}
+
+.product .image-container {
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+}
+
+.product h2 {
+    padding-bottom: .5rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.product h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #4a4a4a;
+}
+
+/*Sekcja zespołu*/
+
+.team-container {
+    background-image: url(../resources/images/arteum-ro-SkKTh9ZyTxU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.team-container h2 {
+    padding-top: 1rem;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 0.25px;
+}
+
+.teammate {
+    padding: 0.75rem;
+    flex-basis: 17.5rem;
+}
+
+.teammate img {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teammate h3 {
+    font-weight: bold;
+}
+
+.teammate p {
+    font-style: italic;
+}
+
+
+.footer {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1.5rem 2rem;
+}
+
+.footer .footer-container {
+    display: flex;
+    font-size: 0.75rem;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
