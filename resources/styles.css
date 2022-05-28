@@ -187,7 +187,7 @@ ul {
     color: #4a4a4a;
 }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 900px) {
     .products-section {
         display: block;
         padding: 1rem;
@@ -263,4 +263,13 @@ ul {
     flex-grow: 1;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .footer-container {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 2rem;
+    }
+
 }
