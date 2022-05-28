@@ -144,7 +144,7 @@ ul {
 
 /* Sekcja produktów */
 
-.team-section h1 {
+.team-section .opis {
     margin-top: 2rem;
     font-weight: 700;
 }
@@ -198,14 +198,21 @@ ul {
         margin: 0;
     }
     
+    .img-description {
+        padding: 2;
+    }
     .product h2 {
         padding-bottom: 0;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .product h3 {
         font-size: 0.75rem;
         line-height: 1.4;
+    }
+
+    .team-section h1 {
+        font-size: smaller;
     }
 }
 
